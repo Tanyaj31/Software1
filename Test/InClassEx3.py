@@ -1,0 +1,6 @@
+number_times=float(input("How many times a week do you eat at the student cafeteria?"))
+number_price=float(input("What is the price of a typical student lunch?"))
+number_week=float(input("How much money do you spend on groceries in a week?"))
+print("Average food expenditure:")
+print("Daily: ", (number_times + number_price + number_week/7), "euros")
+print("Weekly: ", (number_times + number_price + number_week), "euros")
