@@ -1,2 +1,2 @@
-name="Tanya Jha"
-print(f"Hello, {name}!")
+input="Tanya Jha"
+print("Hello",input,"!")
