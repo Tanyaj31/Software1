@@ -10,6 +10,6 @@ elif 7 <= month <= 9:
 elif 10 <= month <= 12:
     season = seasons[3]
 else:
-    season= print("You have entered an invalid number of a month.")
+    season = "Invalid month entered."
 
 print(f"The season for month {month} is {season}.")
